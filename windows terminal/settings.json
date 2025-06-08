@@ -1,0 +1,231 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        }
+    ],
+    "alwaysOnTop": true,
+    "alwaysShowTabs": false,
+    "copyFormatting": "all",
+    "copyOnSelect": false,
+    "defaultProfile": "{e9cd0a98-f99a-5152-8da4-b2384317b3ca}",
+    "keybindings": 
+    [
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "minimizeToNotificationArea": true,
+    "newTabMenu": 
+    [
+        {
+            "allowEmpty": false,
+            "entries": [],
+            "icon": null,
+            "inline": "never",
+            "name": null,
+            "type": "folder"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "elevate": false,
+            "opacity": 10,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "Solarized Dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "JetBrainsMonoNL Nerd Font"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "opacity": 20,
+                "useAcrylic": true
+            },
+            {
+                "backgroundImage": null,
+                "backgroundImageOpacity": 0.43,
+                "colorScheme": "Color Scheme 15",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "JetBrainsMonoNL Nerd Font Propo",
+                    "size": 8
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "icon": "C:\\Users\\18652\\Downloads\\2562240_31de7.gif",
+                "intenseTextStyle": "all",
+                "name": "Command Prompt",
+                "opacity": 8,
+                "tabTitle": "pgp@oxy",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{c872602d-76c8-50ff-8e29-39ff84dbecd0}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{5fd1513b-65da-5222-a202-705a746d12c8}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
+            },
+            {
+                "guid": "{3dacc44c-ddd2-4c76-b3a9-4431d349e75e}",
+                "hidden": false,
+                "name": "Profile 7"
+            },
+            {
+                "antialiasingMode": "cleartype",
+                "background": "#000000",
+                "colorScheme": "Color Scheme 15",
+                "elevate": false,
+                "font": 
+                {
+                    "face": "SpaceMono Nerd Font Propo",
+                    "size": 7,
+                    "weight": "extra-black"
+                },
+                "guid": "{e9cd0a98-f99a-5152-8da4-b2384317b3ca}",
+                "hidden": false,
+                "historySize": 9331,
+                "name": "archlinux",
+                "opacity": 50,
+                "source": "Microsoft.WSL",
+                "tabTitle": "pgp@winarch",
+                "useAcrylic": false
+            },
+            {
+                "backgroundImage": "C:\\Users\\18652\\Downloads\\louisselle-free-fall-w-low-resolution.gif",
+                "backgroundImageOpacity": 0.15,
+                "font": 
+                {
+                    "face": "0xProto Nerd Font",
+                    "size": 7
+                },
+                "guid": "{1f3ee6b7-a55d-5446-be0b-0d4b25527141}",
+                "hidden": false,
+                "intenseTextStyle": "all",
+                "name": "Ubuntu",
+                "opacity": 49,
+                "source": "Microsoft.WSL",
+                "tabTitle": "pgp@ketamine",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{c496a3df-44cd-5a8a-bbca-cf4f450500e9}",
+                "hidden": true,
+                "name": "Gentoo",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": true,
+                "name": "kali-linux",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": true,
+                "name": "Arch",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#020000",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFAADB",
+            "green": "#13A10E",
+            "name": "Color Scheme 15",
+            "purple": "#981279",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "showTabsInTitlebar": false,
+    "tabWidthMode": "titleLength",
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
