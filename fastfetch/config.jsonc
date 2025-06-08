@@ -1,0 +1,112 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "separator": "  ", 
+    "color": "cyan"
+  },
+  "modules": [
+    {
+      "type": "title",
+      "format": "\n pgp@ketamine\n"
+    },
+
+    {
+      "type": "title",
+      "format": "─── SYSTEM ───",
+      "key": ":D"
+    },
+    {
+      "type": "os",
+      "key": "󰽟 OS"
+    },
+    {
+      "type": "kernel",
+      "format": "6.14.4-winarch-x86_64",
+      "key": "󰘚 Kernel"
+      
+    },
+    {
+      "type": "uptime",
+      "key": "󰔟 Uptime"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Packages"
+    },
+    {
+      "type": "shell",
+      "key": " Shell"
+    },
+
+    {
+      "type": "title",
+      "format": "─── INTERFACE ───",
+      "key": ":D"
+    },
+    {
+      "type": "display",
+      "key": "󰍹 Display"
+    },
+    {
+      "type": "de",
+      "key": "󰌢 DE"
+    },
+    {
+      "type": "title",
+      "format": "Wayland",
+      "key": " WM"
+      
+      
+    },
+    {
+      "type": "wmtheme",
+      "key": "󰔌 WM Theme"
+    },
+    {
+      "type": "theme",
+      "key": "󰸌 Theme"
+    },
+    {
+      "type": "icons",
+      "key": "󰉏 Icons"
+    },
+    {
+      "type": "font",
+      "key": "󰛖 Font"
+    },
+    {
+      "type": "cursor",
+      "key": "󰍶 Cursor"
+    },
+    {
+      "type": "terminalfont",
+      "key": "󱇧 Terminal Font"
+    },
+
+    {
+      "type": "title",
+      "format": "─── PERFORMANCE ───",
+      "key": ":D"
+    },
+    {
+      "type": "cpu",
+      "key": "󰍛 CPU"
+    },
+    {
+      "type": "gpu",
+      "key": "󰍹 GPU"
+    },
+    {
+      "type": "swap",
+      "key": "󰟜 Swap"
+    },
+
+    {
+      "type": "title",
+      "format": "─── END OF LINE ───"
+    },
+    {
+      "type": "break"
+    }
+  ]
+}
