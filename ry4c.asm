@@ -1,9 +1,3 @@
-; =====================================================
-; 500-Line x86 Assembly Program to Print "ry4c"
-; Target: Linux x86-64 (NASM syntax)
-; Purpose: Educational demonstration of assembly programming
-; =====================================================
-
 section .data
     ; String to print with newline
     message db 'ry4c', 0xA, 0      ; "ry4c" + newline + null terminator
